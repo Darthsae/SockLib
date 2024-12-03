@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "SockLib"
+version = "0.0.1"
+authors = [
+  { name="Sockmit2007", email="sockmit2007@gmail.com" },
+]
+description = "A small library"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/darthsae/SockLib"
+Issues = "https://github.com/darthsae/SockLib/issues"
